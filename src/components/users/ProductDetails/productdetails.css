@@ -1,0 +1,222 @@
+.additionalData {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 80vw;
+}
+
+/* .additionalDescription {
+  margin-left: 5vw;
+  margin-right: 5vw;
+} */
+
+.imgContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  width: 50%;
+  height: 470px;
+}
+
+#categoriesContainer {
+  font-style: italic;
+}
+
+#categories {
+  display: inline-flex;
+}
+
+#description {
+  width: 40vw;
+  font-style: italic;
+}
+
+#hr {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.imgAndDetail {
+  display: flex;
+}
+
+.imgAndDetail .section {
+  display: flex;
+  height: auto;
+  width: 50%;
+}
+
+.imgAndDetail #data {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgAndDetail #images {
+  display: flex;
+  height: 70vh;
+  margin: auto;
+}
+
+.bigImg {
+  height: 100%;
+  width: 70%;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.bigImg img {
+  height: 400px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.smallImg {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 0 10%;
+}
+
+.smallImg img {
+  height: 20%;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+#price {
+  font-weight: bold;
+  color: #9f005d;
+}
+
+.productAbout button {
+  background-color: white;
+  box-shadow: none;
+  color: #9f005d;
+}
+.productAbout button:hover {
+  border-top: 2px solid #9f005d;
+  font-weight: bold;
+}
+
+.productDetail {
+  width: auto;
+  height: 470px;
+  padding-left: 20px;
+  padding-bottom: 3vh;
+}
+
+.reviewContainer {
+  display: flex;
+  width: 80vw;
+  height: 11vw;
+}
+
+.reviewData {
+  padding-left: 2vw;
+}
+
+.reviewDivider {
+  display: inline-flex;
+}
+
+.reviewUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #9f005d;
+  border-radius: 50%;
+  width: 9vw;
+  height: 9vw;
+  font-size: 2.5vmax;
+}
+
+.selectDeploy {
+  border-bottom: solid #9e005d;
+  margin-top: 20px;
+}
+
+.selectDeploy button {
+  margin-right: 2vw;
+}
+
+#talles {
+  display: flex;
+  flex-direction: column;
+}
+
+#talles .lista {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lista div {
+  display: flex;
+  flex-direction: column;
+}
+
+#talles p {
+  padding-left: 2vw;
+}
+
+#talles p:hover {
+  text-decoration-line: underline;
+  color: #9f005d;
+}
+
+#timeStamps {
+  font-style: italic;
+  color: #9f005d;
+}
+
+.stars {
+  margin-left: -180px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.qty {
+  width: 70px;
+  height: 40px;
+}
+
+.add {
+  width: 30vh;
+  margin-left: 10px;
+  height: 40px;
+  margin-top: 3px;
+}
+.size {
+  width: 130px;
+  margin-left: 10px;
+  height: 40px;
+}
+.containerDetail {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContainerTabs {
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #bbb;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.tabInfo {
+  width: 80%;
+  list-style: none;
+  margin: auto;
+}
+
+.review {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0 0 0;
+  background-color: #dcdde1;
+  border-radius: 20px;
+}

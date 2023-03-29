@@ -1,0 +1,12 @@
+.paginado {
+  display: inline-block;
+  align-items: flex-start;
+}
+.paginado button {
+  width: 10vh;
+}
+
+.paginado button:focus {
+  background-color: white;
+  color: #9E005D;
+}

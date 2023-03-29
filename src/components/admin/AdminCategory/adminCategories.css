@@ -1,0 +1,127 @@
+/* ---NewCategory---- */
+
+.categoryContainer{
+  margin-top: 2%;
+  
+}
+.newCategory {
+  display:block;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.newCategory input {
+  width: 50vh;
+  margin-top: 3vh;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px grey;
+}
+.newCategory button {
+  width: 50vh;
+  margin-top: 1vh;
+}
+
+.uploadImage{
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5vh;
+}
+.uploadImage img {
+  width: 50vh;
+  margin: 3vh;
+}
+.uploadImage button{
+  padding-right: 5vh;
+}
+
+
+/* ------ Edit Categories*/
+.editImage{
+  margin-top: 5vh;
+}
+
+/* ---AdminCategories--- */
+
+.containerUpload{
+  display: flex;
+  flex-direction: column;
+}
+.containerUpload img{
+  margin-bottom: 0%;
+}
+
+
+.categoriesContainer {
+  display: inline-table;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+.categoriesCards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5vh;
+  margin-left: 10%;
+  margin-bottom: 10vh;
+}
+
+.catCard {
+  display: inline-table;
+  /* border: .3px  solid grey; */
+  margin: 0vh 1vw 1vh 1vw;
+  width: 30vh;
+  height: 32vh;
+  color: whitesmoke;
+  box-shadow: 2px 2px 5px gray;
+}
+.imagenCard {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+  background-position: 80%;
+  justify-content: center;
+}
+.labelAndDelete {
+  display: inline-block;
+  position: relative;
+  width: 30vh;
+  height: 20%;
+  font-size: 1em;
+  background-color: gray;
+}
+
+.catLabel {
+  display: inline-flex;
+  font-weight: normal;
+  width: 10vh;
+  font-size: 0.8em;
+}
+.deleteBtn {
+  position: absolute;
+  align-self: flex-end;
+  background: none;
+  width: 1vh;
+  height: 3vh;
+  font-weight: bolder;
+  font-size: 1vh;
+  right: 0;
+  box-shadow: none;
+}
+
+#createButton {
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+div h5 {
+  font-weight: bold;
+  padding-bottom: 1vh;
+}
+
+.newCategory input,
+button {
+  width: 25vw;
+}
